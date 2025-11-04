@@ -2,6 +2,7 @@ const express = require('express');
 const puppeteer = require("puppeteer");
 const app = express();
 const port = 3000;
+console.log(`ss1`);
 
 // 3. 配置中间件，用于解析 JSON 格式的请求体
 app.use(express.json());
