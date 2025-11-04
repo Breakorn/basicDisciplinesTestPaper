@@ -1,0 +1,17 @@
+{
+  "name": "node-express-ssl",
+  "version": "1.0.0",
+  "description": "Node.js Express app with SSL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.26.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
